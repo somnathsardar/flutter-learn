@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_learn/home_page.dart';
 
 void main()
 {
@@ -6,15 +7,10 @@ void main()
 }
 
 class MyApp extends StatelessWidget {
-  final String appTitle = "Test app";
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: appTitle, //Smilar to <title></title> in html
-      home: Scaffold(
-        body: Text("Hello WOrld"),
-      ),
+      home: HomePage(),
     );
   }
 }
