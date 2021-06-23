@@ -12,7 +12,6 @@ class HomePage extends StatelessWidget {
         drawer: Drawer(),
         appBar: AppBar(
           title: Text("Home Page"),
-          backgroundColor: Colors.deepPurple[400],
         ),
         body: Center(
           child: Text("Hello World")
