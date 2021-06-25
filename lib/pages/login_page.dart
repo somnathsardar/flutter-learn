@@ -9,7 +9,11 @@ class LoginPage extends StatelessWidget {
           title: Text("Login Page"),
         ),
         body: Center(
-          child: Text("Login Page"),
+          child: Text("Login Page", 
+                    style: TextStyle(
+                      fontSize: 40.0,
+                    ),
+            ),
         ),
         drawer: Drawer(),
       ),
